@@ -63,9 +63,23 @@
   margin-top: 90px;
 }
 /* Develop Without Limits */
+#develop-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 90px;
+}
+#develop-container .img{
+    height: 400px;
+    width: 400px;
+}
 /* media quare */
 @media screen and (max-width: 576px) {
     #mission-container{
         flex-direction: column;
+    }
+    #develop-container{
+            flex-direction: column;
     }
 }
